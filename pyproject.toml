@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "hemato-py-ml-utils"
+version = "1.0.1"
+description = ""
+authors = ["Ali Moeeny <alimoeeny@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+keras = "^2.11.0"
+tensorflow = "^2.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+black = {version = "^23.1a1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    ".",
+    "tests",
+    "integration",
+]
