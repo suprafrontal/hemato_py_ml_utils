@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "hemato-py-ml-utils"
-version = "1.0.1"
+version = "1.0.2"
 description = ""
 authors = ["Ali Moeeny <alimoeeny@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.12"
+python = ">=3.10,<3.11"
 keras = "^2.11.0"
 tensorflow = "^2.11.0"
 

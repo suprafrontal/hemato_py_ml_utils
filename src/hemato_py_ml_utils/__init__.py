@@ -1,2 +1,2 @@
-from .clinical_loss import ClinicalLoss
+from .clinical_loss import clinical_loss_fn
 from .intersection_over_union import bounding_box_intersection_over_union
